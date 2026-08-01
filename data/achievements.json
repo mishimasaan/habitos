@@ -1,0 +1,27 @@
+[
+  {
+    "id": "streak-7",
+    "title": "7 dias seguidos",
+    "icon": "🔥"
+  },
+  {
+    "id": "training-10",
+    "title": "10 treinos",
+    "icon": "🏋️"
+  },
+  {
+    "id": "registered-30",
+    "title": "30 dias registrados",
+    "icon": "💧"
+  },
+  {
+    "id": "water-18",
+    "title": "Hidratação em dia",
+    "icon": "🌊"
+  },
+  {
+    "id": "study-20h",
+    "title": "20 horas de estudo",
+    "icon": "📚"
+  }
+]

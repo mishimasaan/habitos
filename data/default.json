@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "settings": {
+    "goals": {
+      "water": 3200,
+      "protein": 120,
+      "fibras": 30,
+      "fats": 70,
+      "calories": 2700,
+      "study": 120
+    },
+    "theme": "light"
+  },
+  "days": {}
+}

@@ -1,0 +1,5 @@
+.day-page .page-header { align-items: center; }
+.day-title { text-align: center; flex: 1; }
+.day-title small { display: block; color: var(--text-muted); margin-top: 3px; font-weight: 500; }
+.day-edit-grid { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; }
+.day-number { width: 96px; min-height: 38px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface-soft); text-align: right; padding: 0 10px; }

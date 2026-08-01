@@ -1,0 +1,7 @@
+@media (min-width: 700px) {
+  body { padding: 26px 0; }
+  .app-shell { width: var(--content-width); min-height: calc(100vh - 52px); border-radius: 34px; overflow: hidden; box-shadow: 0 30px 90px rgba(31,20,43,.14); background: var(--bg); border: 1px solid var(--border); }
+  .page { min-height: calc(100vh - 52px); }
+  .bottom-nav { bottom: 26px; border-radius: 0 0 34px 34px; }
+  .floating-button { bottom: calc(var(--nav-height) + 44px); }
+}

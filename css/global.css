@@ -1,0 +1,15 @@
+html { background: var(--bg); color-scheme: light; }
+html[data-theme="dark"] { color-scheme: dark; }
+body { min-height: 100vh; background: radial-gradient(circle at 50% 0, rgba(139,92,246,.08), transparent 34%), var(--bg); color: var(--text); }
+body.is-modal-open { overflow: hidden; }
+.app-shell { width: 100%; min-height: 100vh; margin: 0 auto; }
+.page { min-height: 100vh; padding: max(22px, env(safe-area-inset-top)) 16px calc(var(--nav-height) + 28px + env(safe-area-inset-bottom)); animation: pageIn .22s ease; }
+.page.no-nav { padding-bottom: 34px; }
+.page-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
+.page-header__eyebrow { color: var(--text-muted); margin-top: 5px; }
+.page-header__action { width: 38px; height: 38px; border-radius: 12px; background: var(--surface-solid); box-shadow: var(--shadow-sm); cursor: pointer; display: grid; place-items: center; }
+.section { margin-top: 18px; }
+.section-title { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+button, [role="button"] { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visible { outline: 3px solid rgba(124,58,237,.25); outline-offset: 2px; }
+::selection { background: rgba(124,58,237,.2); }

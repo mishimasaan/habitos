@@ -1,0 +1,12 @@
+.calendar-card { padding: 15px; }
+.calendar-toolbar { display: grid; grid-template-columns: 38px 1fr 38px; align-items: center; gap: 6px; margin-bottom: 12px; }
+.calendar-toolbar h2 { text-align: center; }
+.calendar-week, .calendar-grid { display: grid; grid-template-columns: repeat(7,1fr); gap: 4px; }
+.calendar-week span { text-align: center; color: var(--text-muted); font-size: .75rem; padding: 4px 0; }
+.calendar-cell { aspect-ratio: 1; border-radius: 50%; background: transparent; cursor: pointer; display: grid; place-items: center; position: relative; font-weight: 600; }
+.calendar-cell.is-muted { color: #b4afba; }
+.calendar-cell.is-selected { background: var(--primary); color: #fff; box-shadow: 0 6px 16px rgba(124,58,237,.25); }
+.calendar-cell__dot { position: absolute; bottom: 1px; width: 5px; height: 5px; border-radius: 50%; }
+.calendar-legend { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-top: 14px; color: var(--text-muted); font-size: .74rem; }
+.calendar-legend span { display: flex; align-items: center; gap: 5px; }
+.day-preview { margin-top: 14px; }

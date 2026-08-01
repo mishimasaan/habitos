@@ -1,0 +1,8 @@
+.achievement-hero { text-align: center; padding: 18px 16px; }
+.achievement-ring { width: 150px; height: 150px; margin: 10px auto 16px; border-radius: 50%; display: grid; place-items: center; background: conic-gradient(var(--primary) var(--progress, 0%), var(--surface-muted) 0); position: relative; }
+.achievement-ring::after { content: ""; position: absolute; inset: 10px; border-radius: 50%; background: var(--surface-solid); }
+.achievement-ring__content { position: relative; z-index: 1; }
+.achievement-ring__number { font-size: 2.4rem; font-weight: 850; letter-spacing: -.06em; }
+.achievement-card { padding: 14px; display: flex; align-items: center; gap: 12px; }
+.achievement-card__icon { width: 48px; height: 48px; border-radius: 14px; display: grid; place-items: center; background: var(--primary-soft); font-size: 1.4rem; }
+.achievement-card.is-locked { opacity: .55; filter: grayscale(.4); }

@@ -1,0 +1,21 @@
+.home-water { padding: 16px; }
+.home-water__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.home-water__amount { margin: 4px 0 10px; font-size: .82rem; color: var(--text-muted); }
+.water-input-wrap { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-top: 14px; color: var(--text-muted); font-size: .86rem; }
+.water-input-wrap > div, .home-number-wrap { display: flex; align-items: center; gap: 7px; }
+.water-input-wrap input, .home-number-input { width: 104px; min-height: 40px; padding: 0 10px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface-soft); color: var(--text); text-align: right; font: inherit; }
+.water-input-wrap small, .home-number-wrap small { color: var(--text-muted); min-width: 28px; }
+.habits-group { margin-top: 12px; }
+.metric-edit-row { cursor: default; }
+.binary-control { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; min-width: 130px; }
+.binary-control button { height: 36px; border-radius: 10px; background: var(--surface-soft); color: var(--text-muted); cursor: pointer; }
+.binary-control button.is-active { background: linear-gradient(90deg, var(--primary), var(--primary-2)); color: #fff; font-weight: 700; }
+.home-notes { display: block; padding: 14px; }
+.home-notes__title { display: block; margin-bottom: 10px; }
+.home-notes textarea { min-height: 92px; resize: vertical; }
+.home-save { margin-top: 14px; }
+.notes-text { white-space: pre-line; }
+@media (max-width: 390px) {
+  .water-input-wrap { align-items: flex-start; flex-direction: column; }
+  .home-number-input { width: 86px; }
+}

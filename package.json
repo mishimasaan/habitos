@@ -1,0 +1,7 @@
+{
+  "name": "habitos-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SPA estática de hábitos, pronta para GitHub Pages.",
+  "license": "MIT"
+}
